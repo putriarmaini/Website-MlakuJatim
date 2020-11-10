@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+nav{
+    background:rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 60px;
+    transition: 0.4s;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+label.logo1{
+    font-family: Cherry Cream Soda;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 36px;
+    line-height: 60px;
+    color: #FEE074;
+    padding: 0px 0px 0px 100px;
+}
+label.logo2{
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 36px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px;
+}
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0px 30px;
+}
+nav ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 13px;
+}
+a.klik, a:hover{
+    background: #fff242b7;
+    text-decoration: underline;
+    transition: .5s;
+}
+a#logo{
+    background: none;
+    text-decoration: none;
+    transition: .5s;
+}
+#login{
+    background: rgba(188, 154, 32, 0.9);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 5% 43%;
+    padding: 10px 50px;
+    color: white;
+    background-color:rgba(3, 3, 3, 0.4);
+    border: 1px solid white;
+    border-radius: 50px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+.homeatas{
+    background-image: url("Gambar mlakujatim/bg\ home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+a#pesan{
+    color: black;
+    background: none;
+    text-decoration: none;
+    transition: .5s;
+}
+.covid{
+    display: flex;
+    justify-content: space-evenly;
+}
+#jawatimur{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+.kasus{
+    background-color: #FFCF22;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: -150px;
+    text-align: center;
+}
+.sembuh{
+    background-color: #FFCF22;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+.wafat{
+    background-color: #FFCF22;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+.subhome{
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0px;
+    padding-top: 20px;
+}
+.museum1 img{
+    width: 140px;
+    height: 100px;
+}
+.bot{
+    background-color: #F2EFAD;
+}
+.museum1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+    justify-content: space-evenly;
+}
+.museum2 img{
+    width: 140px;
+    height: 100px;
+}
+.museum2{
+    width: 100%;
+    height: 50%;
+    top: 30px;
+    display: flex;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 60px;
+    justify-content: space-evenly;
+}
+.container{
+    padding: 5px;
+}
+a.hold{
+    color: black;
+    background: none;
+    text-decoration: none;
+    transition: .5s;
+}
+.angkutmalang{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.satwa{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tantular{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.brawijaya{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.trisula{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.karno{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.november10{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tubuh{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.video{
+    text-align: center;
+    padding: 0 0 20px;
+}
+#vid2{
+    margin-left: 150px;
+}
+.artikel{
+    background-color: rgba(192, 156, 23, 0.7);
+    margin: auto;
+    padding-bottom: 30px;
+}
+.daftarartikel1{
+    text-align: center;
+    display: flex;
+    margin: 0 150px 0 150px;
+    justify-content: space-evenly;
+}
+.daftarartikel1 img{
+    width: 220px;
+    height: 123px;
+}
+.daftarartikel1 p{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.daftarartikel2{
+    text-align: center;
+    display: flex;
+    margin: 0 150px 0 150px;
+    justify-content: space-evenly;
+}
+.daftarartikel2 img{
+    width: 220px;
+    height: 123px;
+}
+.daftarartikel2 p{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+a#baca{
+    background: none;
+    text-decoration: none;
+    transition: .5s;
+}
+.baca{
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background-color:rgba(3, 3, 3, 0.4);
+    border: 1px solid white;
+    border-radius: 50px;
+} 
+
+.footer{
+    background-color:#FFCF22 ;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+label.footer1{
+    font-family: Cherry Cream Soda;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 52px;
+    line-height: 60px;
+    color: #FEE074;
+}
+label.footer2{
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 52px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.footer p{
+    font-size: 28px;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+.flexfooter{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+  
