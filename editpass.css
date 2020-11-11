@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FEE074;
+}
+nav{
+    background:rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 60px;
+    transition: 0.4s;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+label.logo1{
+    font-family: Cherry Cream Soda;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 36px;
+    line-height: 60px;
+    color: #FEE074;
+    padding: 0px 0px 0px 100px;
+}
+label.logo2{
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 36px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px;
+}
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0px 30px;
+}
+nav ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 13px;
+}
+a.klik, a:hover{
+    background: #fff242b7;
+    text-decoration: underline;
+    transition: .5s;
+}
+a#logo{
+    background: none;
+    text-decoration: none;
+    transition: .5s;
+}
+#login{
+    background: rgba(188, 154, 32, 0.9);
+}
+.editakun{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+.fotoprofil{
+    margin-top: 50px;
+    text-align: center;
+}
+.fotoprofil img{
+    margin-top: 10px;
+}
+.fotoprofil p{
+    text-align: center;
+    color: black;
+}
+.aturakun{
+    box-sizing: border-box;
+    width: 450px;
+}
+.nama{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F2EFAD;
+}
+.namabagianatas{
+    display: inline-flex;
+}
+h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+input[type="text"]{
+    width: 343px;
+    height: 23px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+input[type=text]:focus{
+    border-color: black;
+    outline: 0;
+}
+button[type=submit]{
+    width: 80px;
+    height: 23px;
+    float: right;
+}
+input[type=email]{
+    width: 343px;
+    height: 23px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+input[type=email]:focus{
+    border-color: black;
+    outline: 0;
+}
+input[type=file]{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.password{
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F2EFAD;
+}
+p.ubah{
+    margin-left: 300px;
+    color: black;
+}
+a.perbarui:hover{
+    text-decoration: none;
+    background: none;
+}
+.verifikasi{
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F2EFAD;
+}
+.checkverifikasi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-flex;
+}
+#checkbox{
+    height: 23px;
+}
+.nomorhp{
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F2EFAD;
+}
+.email{
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F2EFAD;
+}
+#bintang{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 343px;
+    height: 23px;
+}
+.hubungkanakun{
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F2EFAD;
+}
+.facebook{
+    display: inline-flex;
+}
+.facebook p{
+    width: 325px;
+}
+.google{
+    display: inline-flex;
+}
+.google p{
+    width: 325px;
+}
