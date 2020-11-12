@@ -81,7 +81,8 @@ h1{
     margin:auto;
 }
 
+a.klik, a:hover{
+    color: black;
+    text-decoration: none;
 }
-
-
 
