@@ -5,6 +5,9 @@
     list-style: none;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
@@ -65,11 +68,19 @@ a#logo{
 #login{
     background: rgba(188, 154, 32, 0.9);
 }
-h1{
+h1#jalanjalan{
     font-size: 50px;
+    font-family: basic;
+    color: #FEE074;
     text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     padding-top: 200px;
 }
+h1#jatim{
+    font-size: 50px;
+    text-align: center;
+}
+
 h3{
     font-size: 20px;
     text-align: center;
@@ -110,7 +121,7 @@ a#pesan{
     height: fit-content;
     border: 1px solid black;
     border-radius: 10px;
-    width: 120px;
+    width: 150px;
     padding: 20px;
     margin-top: 100px;
     margin-left: -150px;
@@ -121,7 +132,7 @@ a#pesan{
     height: fit-content;
     border: 1px solid black;
     border-radius: 10px;
-    width: 120px;
+    width: 150px;
     padding: 20px;
     margin-top: 100px;
     text-align: center;
@@ -131,12 +142,14 @@ a#pesan{
     height: fit-content;
     border: 1px solid black;
     border-radius: 10px;
-    width: 120px;
+    width: 150px;
     padding: 20px;
     margin-top: 100px;
     text-align: center;
 }
 .subhome{
+    color:#FEE074;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: center;
     font-size: 24px;
     margin: 30px 0px;
@@ -148,12 +161,16 @@ a#pesan{
 }
 .bot{
     background-color: #F2EFAD;
+    top: 500px;
+    margin: auto;
 }
 .museum1{
-    width: 100%;
+    width: 80%;
     height: 50%;
     display: flex;
+    box-sizing: border-box;
     position: relative;
+    margin: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
     text-align: center;
@@ -165,11 +182,13 @@ a#pesan{
     height: 100px;    
 }
 .museum2{
-    width: 100%;
+    width: 80%;
     height: 50%;
     top: 30px;
     display: flex;
+    box-sizing: border-box;
     position: relative;
+    margin: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
     text-align: center;
@@ -285,14 +304,16 @@ a#baca{
     margin: auto;
     text-align: center;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 220px;
 }
 label.footer1{
     font-family: Cherry Cream Soda;
     font-style: normal;
     font-weight: bold;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 52px;
-    line-height: 60px;
+    font-size: 40px;
     color: #FEE074;
 }
 label.footer2{
@@ -300,17 +321,35 @@ label.footer2{
     font-style: normal;
     font-weight: bold;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 52px;
-    line-height: 60px;
+    font-size: 40px;
     color: #FFFFFF;
 }
 .footer p{
-    font-size: 28px;
-    font-family: Georgia, Times, 'Times New Roman', serif
+    font-size: 20px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
 }
 .flexfooter{
     display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 20px;
 }
-  
+.bagi2{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.definisi p{
+    font-size: 16px;
+}
+.link{
+    margin-top: -20px;
+}
+.simbol{
+    margin-top: 20px;
+}
+a.sosmed:hover{
+    background: none;
+    text-decoration: none;
+}

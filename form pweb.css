@@ -40,6 +40,7 @@ input[type=text]{
     background-color: white;
     border: 1px solid #000000;
     box-sizing: content-box;
+    outline: none;
 }
 input[type=password]{
     width: 250px;
@@ -47,12 +48,14 @@ input[type=password]{
     border-radius: 5px;
     border: 1px solid #000000;
     box-sizing: content-box;
+    outline: none;
 }
 textarea{
     width: 250px;
     border-radius: 5px;
     border: 1px solid #000000;
     box-sizing: content-box;
+    outline: none;
 }
 #email{
     width: 250px;
@@ -60,6 +63,7 @@ textarea{
     border-radius: 5px;
     border: 1px solid #000000;
     box-sizing: content-box;
+    outline: none;
 }
 #ttl{
     width: 250px;
@@ -67,10 +71,12 @@ textarea{
     border-radius: 5px;
     border: 1px solid #000000;
     box-sizing: content-box;
+    outline: none;
 }
 .tombol{
     padding-left: 130px;
     padding-top: 100px;
+    outline: none;
 }
 .sign{
     text-align: center;
@@ -88,7 +94,6 @@ textarea{
     border-radius: 5px;
 }
 .phone{
-
     padding: 5px;
     border-radius: 5px;
 }
