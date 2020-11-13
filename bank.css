@@ -145,6 +145,7 @@ a.klik, a:hover{
     height: 40px;    
     margin-left: -150px;
     margin-right: -100px;
+    outline: none;
 }
 
 .tgl{
@@ -172,10 +173,11 @@ a.klik, a:hover{
     border-radius: 5px;
     border: 2px solid #f0f0f0;
     display: block;
-    width: 100px;
+    width: 133px;
     height: 40px;
     margin-left: -150px;
     margin-right: -100px;
+    outline: none;
 }
 .byr button{
     font-family: sans-serif;
@@ -189,6 +191,10 @@ a.klik, a:hover{
     text-align: center;
     margin-top:28%;
     margin-left:53%;
+    outline: none;
 }
-
+a.noneklik, a:hover{
+    color: black;
+    text-decoration: none;
+}
 
