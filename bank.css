@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(bg\ 4.png);
+    background-size: cover;
+}
+nav{
+    background:rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    transition: 0.4s;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+label.logo1{
+    font-family: Cherry Cream Soda;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 36px;
+    line-height: 60px;
+    color: #FEE074;
+    padding: 0px 0px 0px 100px;
+}
+label.logo2{
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 36px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 0px;
+}
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0px 30px;
+}
+nav ul li a{
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 13px;
+}
+a.klik, a:hover{
+    background: #fff242b7;
+    text-decoration: underline;
+    transition: .5s;
+}
+#login{
+    background: rgba(188, 154, 32, 0.9);
+}
+.atas{
+    background-image: url(wotuolu.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 40%;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 60px;
+    background-size: cover;
+    padding-top: 40px;
+}
+.judul{
+    text-align: center;
+    margin: 20px 40% 90px;
+    padding: 20px;
+    color: white;
+    text-decoration-line: underline;
+}
+
+.penjelasan{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #E1C048;
+}
+.jelas{
+    text-align: center;
+    margin : auto;
+    margin-right: 15%;   
+    margin-left: 5%;
+}
+
+.harga{
+    text-align: center;
+    margin : auto;
+    margin-right: 20%;
+    border: 2px solid black;
+    padding: 20px;
+}
+.bawah{
+    width: 85%;
+    height: 40%;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.bnykorg{
+    margin-top: 10%;
+    margin-left: 8.5%;
+    width: 85%;
+    height: 40%;
+    display: flex;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+.bnykorg label{
+    color: #0a0a0a;
+    display: block;
+    padding: 5px;
+    margin-left: -150px;
+    margin-right: -100px;
+
+}
+.bnykorg input{
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+    display: block;
+    width: 70px;
+    height: 40px;    
+    margin-left: -150px;
+    margin-right: -100px;
+}
+
+.tgl{
+    margin-top: 15%;
+    margin-left: 16%;
+    width: 85%;
+    height: 40%;
+    display: flex;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+.tgl label{
+    color: #0a0a0a;
+    display: block;
+    padding: 5px;
+    margin-left: -150px;
+    margin-right: -100px;
+}
+.tgl input{
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin-left: -150px;
+    margin-right: -100px;
+}
+.byr button{
+    font-family: sans-serif;
+    background-color : #C09C17;
+    font-size: 14px;
+    border-radius: 5px;
+    display: block;
+    width: 160px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    margin-top:28%;
+    margin-left:53%;
+}
+
+
