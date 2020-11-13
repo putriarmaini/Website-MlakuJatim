@@ -51,7 +51,7 @@ nav ul li a{
 a.klik, a:hover{
     background: #fff242b7;
     text-decoration: underline;
-    transition: .5s;
+    transition: .5s;.
 }
 #login{
     background: rgba(188, 154, 32, 0.9);
@@ -62,9 +62,7 @@ a.klik, a:hover{
     font-size: 16px;
     color: black ;
     padding: 30px 120px 0px 100px;
-}
-.artikel p{
-    text-align: justify;
+    font-family: sans-serif;
 }
 h1{
     text-align: center;
