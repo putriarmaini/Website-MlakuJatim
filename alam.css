@@ -88,6 +88,7 @@ input[type=text]{
     border: 0px;
     border-radius: 50px;
     background-color:rgba(255, 255, 255, 0.534);
+    outline: none;
 }
 .atas{
     background-image: url("Gambar Mlakujatim/kebun\ teh.jpg");
@@ -121,35 +122,41 @@ h2{
     transition: 0s;
     background: none;
 }
-.museum1 img{
+.alam1 img{
     width: 149.5px;
     height: 100px;
 }
 .bot{
     top: 500px;
+    box-sizing: border-box;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 60px;
 }
-.museum1{
+.alam1{
     width: 100%;
     height: 50%;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     display: flex;
+    justify-content: space-evenly;
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
     text-align: center;
     padding: 2px;
 }
-.museum2 img{
+.alam2 img{
     width: 149.5px;
     height: 100px;
 }
-.museum2{
+.alam2{
     width: 100%;
     height: 50%;
-    left: 0px;
+    left: 0;
     top: 30px;
     display: flex;
+    justify-content: space-evenly;
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
@@ -159,58 +166,110 @@ h2{
 .container{
     padding: 5px;
 }
-.angkutmalang{
+.baluran{
     border-radius: 5px;
     background-color: white;
     margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.satwa{
+.sempu{
     border-radius: 5px;
     background-color: white;
     margin: auto;
-    margin-left: -50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.tantular{
-    border-radius: 5px;
-    background-color: white;
-    margin: auto;
-    margin-left: -50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.brawijaya{
-    border-radius: 5px;
-    background-color: white;
-    margin: auto;
-    margin-left: -50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.trisula{
+.ranukumbolo{
     border-radius: 5px;
     background-color: white;
     margin: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.karno{
+
+.ijen{
     border-radius: 5px;
     background-color: white;
     margin: auto;
-    margin-left: -50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.november10{
+.bromo{
     border-radius: 5px;
     background-color: white;
     margin: auto;
-    margin-left: -50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.tubuh{
+.maharani{
     border-radius: 5px;
     background-color: white;
     margin: auto;
-    margin-left: -50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.telaga{
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.airterjun{
+    border-radius: 5px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a.klikgambar{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    background-color:#FFCF22 ;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 220px;
+}
+label.footer1{
+    font-family: Cherry Cream Soda;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 40px;
+    color: #FEE074;
+}
+label.footer2{
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.footer p{
+    font-size: 20px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+.flexfooter{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+}
+.bagi2{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.definisi p{
+    font-size: 16px;
+}
+.link{
+    margin-top: -20px;
+}
+.simbol{
+    margin-top: 20px;
+}
+a.sosmed:hover{
+    background: none;
+    text-decoration: none;
 }

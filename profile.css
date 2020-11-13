@@ -76,7 +76,6 @@ a#logo{
 }
 .namalengkap{
     margin: 20px 0px;
-    text-decoration: underline;
 }
 button{
     padding: 5px;
@@ -89,4 +88,65 @@ button{
 }
 .aturakun button{
     background-color: #E1C048;
+    outline: none;
+}
+.tambahwisata{
+    margin: 0 0 30px;
+}
+.tambahwisata button{
+    outline: none;
+}
+.footer{
+    background-color:#FFCF22 ;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 220px;
+}
+label.footer1{
+    font-family: Cherry Cream Soda;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 40px;
+    color: #FEE074;
+}
+label.footer2{
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.footer p{
+    font-size: 20px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+}
+.flexfooter{
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+}
+.bagi2{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.definisi p{
+    font-size: 16px;
+}
+.link{
+    margin-top: -20px;
+}
+.simbol{
+    margin-top: 20px;
+}
+a.sosmed:hover{
+    background: none;
+    text-decoration: none;
 }

@@ -66,6 +66,7 @@ h1{
     text-align: center;
     margin:auto;
     color: #ffffff;
+    outline: none;
 }
 
 .sign-up button{
@@ -79,6 +80,7 @@ h1{
     align-content: center;
     text-align: center;
     margin:auto;
+    outline: none;
 }
 
 a.klik, a:hover{
