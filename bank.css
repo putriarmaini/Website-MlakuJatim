@@ -192,6 +192,7 @@ a.klik, a:hover{
     margin-top:28%;
     margin-left:53%;
     outline: none;
+    cursor: pointer;
 }
 a.noneklik, a:hover{
     color: black;

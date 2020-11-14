@@ -156,6 +156,9 @@ p{
     padding: 0 60px;
     outline: none;
 }
+.jadi button{
+    cursor: pointer;
+}
 .jadiya button{
     background-color: #937B00;
     padding: 8px;
