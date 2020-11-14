@@ -96,12 +96,12 @@ h2{
     padding: 10px;
 }
 .homeatas{
-    background-image: url("Gambar mlakujatim/bg\ home.png");
+    background-image: url("Gambar mlakujatim/bg home.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    position: relative;
-    z-index: 1;
+    /* position: relative;
+    z-index: 1; */
 }
 a#pesan{
     color: black;
