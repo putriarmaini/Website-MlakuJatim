@@ -100,8 +100,6 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    /* position: relative;
-    z-index: 1; */
 }
 a#pesan{
     color: black;
@@ -250,6 +248,9 @@ a.hold{
 .video{
     text-align: center;
     padding: 0 0 20px;
+}
+.video video{
+    outline: none;
 }
 #vid2{
     margin-left: 150px;
