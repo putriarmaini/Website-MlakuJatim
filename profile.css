@@ -89,12 +89,14 @@ button{
 .aturakun button{
     background-color: #E1C048;
     outline: none;
+    cursor: pointer;
 }
 .tambahwisata{
     margin: 0 0 30px;
 }
 .tambahwisata button{
     outline: none;
+    cursor: pointer;
 }
 .footer{
     background-color:#FFCF22 ;
