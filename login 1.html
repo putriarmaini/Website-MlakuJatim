@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scle-1.0">
     <link rel="stylesheet" href="login 1.css">
+    <script src="login.js"></script>
     <title>Log In</title>
 </head>
 <body>
@@ -12,18 +13,15 @@
             <h1>Log In</h1>
             <div class="form-control">
                 <label for="username">Email/Mobile Number</label>
-                <input type="text" id="username" placeholder="Masukan email/username">
+                <input type="text" id="username" placeholder="Masukan email/mobile number">
             </div>
             <div class="form-control">
                 <label for="password">Password</label>
                 <input type="password" id="password" placeholder="Masukan password">
             </div>
-            <div class="lupa-password">
-                <button type="submit">Forget Password?</button>
-            </div>
             <br>
             <div class="form-control">
-                <button type="submit"><a class="klik" href="index.html">Log In</a></button>
+                <button type="submit" onclick="login()"><a class="klik" href="index.html">Log In</a></button>
             </div>
             <br>
             <br>
