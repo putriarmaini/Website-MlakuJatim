@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="home.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <nav>
-        <a id="logo" href="#"><label class="logo1">Mlaku</label><label class="logo2">jatim</label></a>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="menubtn"><img src="Gambar Mlakujatim/menubtn.png" alt=""></i>
+        </label>
+        <label class="logo1">Mlaku</label><label class="logo2">jatim</label>
         <ul>
             <li><a class="klik" href="index.html">Home</a></li>
             <li><a href="alam.html">Booking</a></li>
@@ -19,7 +24,9 @@
     <div class="homeatas">
         <h1 id="jalanjalan">JALAN JALAN </h1>
         <h1 id="jatim">DI JAWA TIMUR</h1>
-        <a id="pesan" href="#bot"><h3>PESAN</h3></a>
+        <div id="pesanbtn">
+            <a id="pesan" href="#bot"><h3>PESAN</h3></a>
+        </div>
     </div>
     <h2>Info Covid-19</h2>
     <div class="covid">
@@ -228,6 +235,15 @@
                     <p>www.mlakujatim.com</p>
                 <div class="link">
             </div>
+        </div>
+    </div>
+    <div class="lightbox">
+        <div class="iFrameContainer">
+            <div class="toolbarLB">
+                <span class="closeLB" onclick="lightBoxClose()">&times;</span>
+            </div>
+            <h1>Selamat Datang</h1>
+            <p></p>
         </div>
     </div>
 </body>
