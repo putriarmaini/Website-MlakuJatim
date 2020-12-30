@@ -111,7 +111,7 @@ h1{
     height: 25px;
     outline: none;
 }
-a.btna, a:hover{
+a#btna:hover{
     text-decoration: none;
     background: none;
 }
@@ -153,47 +153,27 @@ h2{
     transition: 0s;
     background: none;
 }
-.museum1 img{
+.grid-container img{
     width: 149.5px;
     height: 100px;
 }
-.bot{
-    top: 500px;
+
+.grid-container{
     box-sizing: border-box;
-    width: 900px;
-    margin: auto;
-    margin-bottom: 60px;
-}
-.museum1{
-    width: 100%;
-    height: 50%;
     left: 0;
     top: 0;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 12px;
     text-align: center;
     padding: 2px;
 }
-.museum2 img{
-    width: 149.5px;
-    height: 100px;
-}
-.museum2{
-    width: 100%;
-    height: 50%;
-    left: 0;
-    top: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 12px;
-    text-align: center;
-    padding: 2px;
-}
+
 .container{
     padding: 5px;
 }
@@ -255,6 +235,8 @@ a.klikgambar{
     margin: auto;
     text-align: center;
     padding: 20px 0;
+    position: relative;
+    top: 20px;
     display: flex;
     justify-content: space-evenly;
     height: 220px;
@@ -281,21 +263,18 @@ label.footer2{
     margin-top: 20px;
 }
 .flexfooter{
-    display: flex;
     text-align: center;
     padding-top: 20px;
 }
-.bagi2{
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    width: 700px;
-}
+
 .definisi p{
     font-size: 16px;
 }
 .link{
     margin-top: -20px;
+}
+.sosmed img{
+    width: 60px;
 }
 .simbol{
     margin-top: 20px;
@@ -303,4 +282,336 @@ label.footer2{
 a.sosmed:hover{
     background: none;
     text-decoration: none;
+}
+.checkbtn{
+    float: right;
+    line-height: 70px;
+    margin-right: 40px;
+    cursor: pointer;
+    color: black;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+.menubtn img{
+    width: 30px;
+}
+@media only screen and (max-width:1300px){
+    nav{
+        background:rgba(255, 255, 255, 0.8);
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+        transition: 0.4s;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+    }
+    label.logo1{
+        font-size: 30px;
+        line-height: 50px;
+        color: #FEE074;
+        padding: 0px 0px 0px 5%;
+    }
+    label.logo2{
+        font-size: 30px;
+        line-height: 50px;
+        color: #FFFFFF;
+        padding: 0px 0px 0px 0px;
+    }
+    nav ul{
+        float: right;
+        margin-right: 5%;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 50px;
+        margin: 0px 20px;
+    }
+    nav ul li a{
+        color: black;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 10px 13px;
+    }
+    .judul{
+        text-align: center;
+        margin: 20px 42% 20px;
+        padding: 10px;
+        border: 2px solid white;
+        background-color:rgba(255, 255, 255, 0.234);
+    }
+    h1{
+        font-size: 20px;
+    }
+    #cari{
+        font-family: sans-serif;
+        font-size: 14px;
+        margin: 20px 25% 15px;
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .cari{
+        box-sizing: border-box;
+        height: 90px;
+    }
+    
+    #btncari{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #btncari button{
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid;
+        border-radius: 10px;
+        width: 70px;
+        height: 20px;
+    }
+    
+    .atas{
+        background-image: url("Gambar Mlakujatim/bg museum.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 325px;
+        left: 0px;
+        top: 0px;
+        padding-top: 75px;
+    }
+    h2{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .panah img{
+        width: 30px;
+    }
+    .footer{
+        background-color:#FFCF22 ;
+        margin: auto;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 180px;
+    }
+    label.footer1{
+        font-size: 30px;
+    }
+    label.footer2{
+        font-size: 30px;
+    }
+    .footer p{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .flexfooter{
+        display: flex;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .definisi p{
+        font-size: 14px;
+    }
+    .link{
+        margin-top: -20px;
+    }
+    .simbol{
+        margin-top: 20px;
+    }
+    .link img{
+        width: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    nav{
+        background:rgba(255, 255, 255, 0.8);
+        width: 100%;
+        height: 40px;
+        overflow: hidden;
+        transition: 0.4s;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+    }
+
+    label.logo1{
+        font-size: 20px;
+        line-height: 40px;
+        padding-left: 40px;
+        margin-left: 20px;
+    }
+
+    label.logo2{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+    nav ul li{
+        display: block;
+        margin: 10px 0;
+        line-height: 30px;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 200px;
+        background:rgba(255, 255, 255, 0.8);
+        top: 40px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    #check:checked~ul{
+        left: 0;
+    }
+
+    .checkbtn{
+        line-height: 50px;
+        display: block;
+    }
+    .menubtn img{
+        width: 20px;
+    }
+    .container{
+        padding: 3px 0px;
+        font-size: 6px;
+    }
+    
+    .grid-container img{
+        width: 80px;
+        height: 70px;
+    }
+    
+    .grid-container{
+        box-sizing: border-box;
+        left: 0;
+        top: 0;
+        display: grid;
+        grid-gap: 30px;  
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 7px;
+        text-align: center;
+        padding: 0px;
+    }
+    .judul{
+        text-align: center;
+        margin: 20px 42% 20px;
+        padding: 10px;
+    }
+    h1{
+        font-size: 14px;
+    }
+    #cari{
+        font-family: sans-serif;
+        font-size: 8px;
+        margin: 20px 30% 15px;
+        width: 40%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .cari{
+        box-sizing: border-box;
+        height: 70px;
+    }
+    
+    #btncari{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #btncari button{
+        font-size: 8px;
+        text-align: center;
+        margin: 0 auto;
+        width: 50px;
+        height: 14px;
+    }
+    
+    .atas{
+        background-image: url("Gambar Mlakujatim/bg museum.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 260px;
+        left: 0px;
+        top: 0px;
+        padding-top: 60px;
+    }
+    h2{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    #panah1{
+        margin-left: 10%;
+    }
+    #panah2{
+        margin-right: 10%;
+    }
+    .panah img{
+        width: 20px;
+    }
+    .footer{
+        background-color:#FFCF22 ;
+        margin: auto;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 130px;
+    }
+    label.footer1{
+        font-size: 20px;
+    }
+    label.footer2{
+        font-size: 20px;
+    }
+    .footer p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .flexfooter{
+        display: flex;
+        text-align: center;
+        padding-top: 16px;
+    }
+
+    .definisi p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .link{
+        margin-top: -20px;
+    }
+    .simbol{
+        margin-top: 10px;
+    }
+    .link img{
+        width: 25px;
+    }
 }
