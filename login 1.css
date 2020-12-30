@@ -87,43 +87,63 @@ a.klik, a:hover{
     text-decoration: none;
 }
 
-
-.lightbox {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: rgba(0, 0, 0, 0.5)
-}
-.toolbarLB {
-	text-align: right;
-	padding: 3px;
-}
-.closeLB {
-	color: red;
-	cursor: pointer;
-}
-.lightbox .iFrameContainer {
-	vertical-align: middle;
-	background: #CCC;
-	padding: 2px;
-	width: 500px;
-	height: 250px;
-}
-
-.lightbox .iFrameContainer h1{
-	text-align: center;
-	color: steelblue;
-}
-
-.lightbox .iFrameContainer p{
-	text-align: center;
-}
-
-.lightbox.closed {
-	display: none;
+@media only screen and (max-width:768px){
+    .container{
+        width: 200px;
+        font-size: 20px;
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .form {
+        padding: 20px 30px;
+    }
+    
+    .form-control{
+        margin-bottom: 2px;
+        position: relative;
+    }
+    
+    .form-control label{
+        color: #0a0a0a;
+        display: block;
+        font-size: 8px;
+    }
+    
+    .form-control input{
+        padding: 5px;
+        font-size: 6px;
+        border-radius: 5px;
+        border: 2px solid #f0f0f0;
+        display: block;
+        width: 100%;
+    }
+    
+    .form-control input:focus{
+        border-color: #888888;
+        outline: 0;
+    }
+    
+    .form-control button{
+        padding: 3px;
+        font-size: 6px;
+        display: block;
+        width: 50%;
+        align-content: center;
+        text-align: center;
+        margin:auto;
+    }
+    
+    .sign-up button{
+        padding: 3px;
+        font-size: 6px;
+        display: block;
+        width: 80%;
+        align-content: center;
+        text-align: center;
+        margin:auto;
+    }
 }

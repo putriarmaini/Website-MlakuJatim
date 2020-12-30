@@ -375,6 +375,49 @@ a.sosmed:hover{
     display: none;
 }
 
+
+
+.lightbox {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.5)
+}
+.toolbarLB {
+	text-align: right;
+	padding: 3px;
+}
+.closeLB {
+	color: red;
+	cursor: pointer;
+}
+.lightbox .iFrameContainer {
+	vertical-align: middle;
+	background: #CCC;
+	padding: 2px;
+	width: 500px;
+	height: 250px;
+}
+
+.lightbox .iFrameContainer h1{
+	text-align: center;
+	color: steelblue;
+}
+
+.lightbox .iFrameContainer p{
+	text-align: center;
+}
+
+.lightbox.closed {
+	display: none;
+}
+
+
 @media only screen and (max-width:1400px){
     .checkbtn{
         display: none;
