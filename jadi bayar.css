@@ -187,3 +187,33 @@ a.pencet:hover{
     color: black;
     text-decoration: none;
 }
+
+@media screen and (max-width : 1200px){
+    .container{
+        margin-top: 40%;
+
+}
+}
+
+
+@media screen and (max-width : 1000px){
+    .container{
+        margin-top: 50%;
+
+}
+}
+
+@media screen and (max-width : 800px){
+    .container{
+        margin-top: 60%;
+
+}
+}
+
+@media screen and (max-width : 600px){
+    .container{
+        margin-top: 80%;
+
+}
+}
+

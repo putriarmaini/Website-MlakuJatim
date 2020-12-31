@@ -68,7 +68,6 @@ a.klik, a:hover{
     position: absolute;
     background-repeat: no-repeat;
     width: 85%;
-    height: 40%;
     margin-left: 100px;
     margin-right: 100px;
     top: 60px;
@@ -197,5 +196,51 @@ a.klik, a:hover{
 a.noneklik, a:hover{
     color: black;
     text-decoration: none;
+}
+
+@media screen and (max-width : 1300px){
+    .penjelasan{
+        height: auto;
+        padding: 30px;
+    }
+    .bnykorg{
+        margin-top: 40%;
+    }
+    .bnykorg label{
+        margin-left: -300px;
+        margin-right: 0px;
+    }
+    .tgl{
+        margin-top : 60%;
+        margin-left: 40%;
+        display: block;
+    }
+    .tgl label{
+        margin-left: -200px;
+    }
+}
+}
+
+@media screen and (max-width : 700px){
+    .penjelasan{
+        height: auto;
+        padding: 30px;
+    }
+    .bnykorg{
+        margin-top: 70%;
+    }
+    .bnykorg label{
+        margin-left: -300px;
+        margin-right: 0px;
+    }
+    .tgl{
+        margin-top : 80%;
+        margin-left: 40%;
+        display: block;
+    }
+    .tgl label{
+        margin-left: -200px;
+    }
+}
 }
 

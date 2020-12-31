@@ -175,3 +175,13 @@ a.noneklik:hover{
     text-decoration: none;
 }
 
+@media screen and (max-width : 1300px){
+    .bawah{
+        display: inline;
+        margin-bottom: 50px;
+    }
+    .penjelasan{
+        width:100%;
+    }
+}
+
