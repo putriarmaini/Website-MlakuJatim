@@ -28,7 +28,7 @@ label.logo1{
     font-size: 36px;
     line-height: 60px;
     color: #FEE074;
-    margin-left: 100px;
+    padding: 0px 0px 0px 100px;
 }
 label.logo2{
     font-family: Abhaya Libre;
@@ -38,6 +38,7 @@ label.logo2{
     font-size: 36px;
     line-height: 60px;
     color: #FFFFFF;
+    padding: 0px 0px 0px 0px;
 }
 nav ul{
     float: right;
@@ -62,7 +63,9 @@ a.klik, a:hover{
 
 #login{
     background: rgba(188, 154, 32, 0.9);
+    border-radius: 50px;
 }
+
 h1#jalanjalan{
     font-size: 50px;
     font-family: basic;
@@ -79,12 +82,12 @@ h1#jatim{
 h3{
     font-size: 20px;
     text-align: center;
-    margin: 5% 43%;
     padding: 10px 50px;
     color: white;
     background-color:rgba(3, 3, 3, 0.4);
     border: 1px solid white;
     border-radius: 50px;
+    margin-top: 30px;
 }
 h2{
     text-align: center;
@@ -103,10 +106,11 @@ a#pesan{
     transition: .5s;
 }
 #pesanbtn{
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    
 }
 .covid{
     display: flex;
@@ -308,6 +312,8 @@ a#baca{
     margin: auto;
     text-align: center;
     padding: 20px 0;
+    position: relative;
+    top: 20px;
     display: flex;
     justify-content: space-evenly;
     height: 220px;
@@ -334,21 +340,18 @@ label.footer2{
     margin-top: 20px;
 }
 .flexfooter{
-    display: flex;
     text-align: center;
     padding-top: 20px;
 }
-.bagi2{
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    width: 700px;
-}
+
 .definisi p{
     font-size: 16px;
 }
 .link{
     margin-top: -20px;
+}
+.sosmed img{
+    width: 60px;
 }
 .simbol{
     margin-top: 20px;
@@ -359,116 +362,195 @@ a.sosmed:hover{
 }
 
 .checkbtn{
-    font-size: 30px;
-    color: black;
     float: right;
-    line-height: 60px;
+    line-height: 70px;
     margin-right: 40px;
     cursor: pointer;
-}
-.menubtn img{
-    width: 20px;
-    height: 20px;
+    color: black;
+    display: none;
 }
 
 #check{
     display: none;
 }
-
-
-
-.lightbox {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: rgba(0, 0, 0, 0.5)
-}
-.toolbarLB {
-	text-align: right;
-	padding: 3px;
-}
-.closeLB {
-	color: red;
-	cursor: pointer;
-}
-.lightbox .iFrameContainer {
-	vertical-align: middle;
-	background: #CCC;
-	padding: 2px;
-	width: 500px;
-	height: 250px;
+.menubtn img{
+    width: 30px;
 }
 
-.lightbox .iFrameContainer h1{
-	text-align: center;
-	color: steelblue;
-}
-
-.lightbox .iFrameContainer p{
-	text-align: center;
-}
-
-.lightbox.closed {
-	display: none;
-}
-
-
-@media only screen and (max-width:1400px){
-    .checkbtn{
-        display: none;
+@media only screen and (max-width:1300px){
+    nav{
+        background:rgba(255, 255, 255, 0.8);
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+        transition: 0.4s;
+        position: fixed;
+        top: 0;
+        z-index: 99;
     }
+    label.logo1{
+        font-size: 30px;
+        line-height: 50px;
+        color: #FEE074;
+        padding: 0px 0px 0px 5%;
+    }
+    label.logo2{
+        font-size: 30px;
+        line-height: 50px;
+        color: #FFFFFF;
+        padding: 0px 0px 0px 0px;
+    }
+    nav ul{
+        float: right;
+        margin-right: 5%;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 50px;
+        margin: 0px 20px;
+    }
+    nav ul li a{
+        color: black;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 10px 13px;
+    }
+
+    .footer{
+        background-color:#FFCF22 ;
+        margin: auto;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 180px;
+    }
+    label.footer1{
+        font-size: 30px;
+    }
+    label.footer2{
+        font-size: 30px;
+    }
+    .footer p{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .flexfooter{
+        display: flex;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .definisi p{
+        font-size: 14px;
+    }
+    .link{
+        margin-top: -20px;
+    }
+    .simbol{
+        margin-top: 20px;
+    }
+    .link img{
+        width: 40px;
+    }
+
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 768px){
+    nav{
+        background:rgba(255, 255, 255, 0.8);
+        width: 100%;
+        height: 40px;
+        overflow: hidden;
+        transition: 0.4s;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+    }
+
     label.logo1{
-        font-size: 24px;
+        font-size: 20px;
+        line-height: 40px;
         padding-left: 40px;
         margin-left: 20px;
     }
+
     label.logo2{
-        font-size: 24px;
+        font-size: 20px;
+        line-height: 40px;
     }
     nav ul li a{
         font-size: 12px;
     }
-    nav ul{
-    }
-    .checkbtn{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-    .checkbtn{
+    nav ul li{
         display: block;
+        margin: 10px 0;
+        line-height: 30px;
     }
+
     ul{
         position: fixed;
         width: 100%;
-        height: 100vh;
-        background: #2c3e50;
-        top: 80px;
-        left: 0;
+        height: 200px;
+        background:rgba(255, 255, 255, 0.8);
+        top: 40px;
+        left: -100%;
         text-align: center;
+        transition: all .5s;
     }
-    nav ul li{
-        display: block;
 
+    #check:checked~ul{
+        left: 0;
     }
-    nav ul li a{
-        font-size: 14px;
+
+    .checkbtn{
+        line-height: 50px;
+        display: block;
     }
-    a:hover, a.active{
-        background: none;
-        color: #0082e6;
+    .menubtn img{
+        width: 20px;
+    }
+
+    .footer{
+        background-color:#FFCF22 ;
+        margin: auto;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 130px;
+    }
+    label.footer1{
+        font-size: 20px;
+    }
+    label.footer2{
+        font-size: 20px;
+    }
+    .footer p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .flexfooter{
+        display: flex;
+        text-align: center;
+        padding-top: 16px;
+    }
+
+    .definisi p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .link{
+        margin-top: -20px;
+    }
+    .simbol{
+        margin-top: 10px;
+    }
+    .link img{
+        width: 25px;
     }
 }
