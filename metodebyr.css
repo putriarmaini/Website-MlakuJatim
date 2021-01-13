@@ -68,10 +68,9 @@ a.klik, a:hover{
     background-image: url(wotuolu.png);
     position: relative;
     background-repeat: no-repeat;
-    width: 85%;
+    width: 1000px;
     height: 300px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: auto;
     top: 60px;
     background-size: cover;
     padding-top: 40px;
@@ -230,12 +229,26 @@ a.noneklik:hover{
         font-weight: normal;
         padding: 10px 13px;
     }
-    .bawah{
-        display: inline;
-        margin-bottom: 50px;
+    .atas{
+        width: 900px;
+        height: 280px;
+        margin: auto;
+        top: 50px;
+        padding-top: 40px;
     }
-    .penjelasan{
-        width:100%;
+    .judul{
+        width: 500px;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .tgl{
+        font-size: 15px;
+    }
+    
+    .total{
+        font-size: 15px;
     }
 }
 
@@ -292,5 +305,88 @@ a.noneklik:hover{
     }
     .menubtn img{
         width: 20px;
+    }
+    .atas{
+        width: 450px;
+        height: 160px;
+        top: 40px;
+        padding-top: 40px;
+    }
+    .judul{
+        width: 450px;
+        padding: 20px;
+    }
+    .judul h1{
+        font-size:16px;
+    }
+    .transaksi{
+        width: 100%;
+        height: 45px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .tgl{
+        margin-right: 15%;   
+        margin-left: 20%;
+        border: 1px solid black;
+        padding: 8px;
+        font-size: 8px;
+    }
+    
+    .total{
+        margin-right: 20%;
+        border: 1px solid black;
+        padding: 8px;
+        font-size: 8px;
+    }
+    .pilih{
+        text-align: center;
+        margin: auto;
+        font-size: 10px;
+    }
+    .metode img{
+        width: 30px;
+        height: 40px;
+        left: 0px;
+        top: 100px;
+    }
+    .metodeatas{
+        height: 50%;
+        top: 15px;
+        width: 300px;
+    }
+    .bni{
+        margin-right: 2%;
+    }
+    
+    .bni img{
+        width: 35px;
+        height: 30px;
+    }
+    .bri img{
+        width: 35px;
+        height: 30px;
+    }
+    .bri{
+        margin-right: 2%;
+    }
+    
+    .metodebwh{
+        width: 100%;
+        height: 50%;
+        left: 0px;
+        top: 20px;
+        margin-top: 10px;
+    }
+    .bca{
+        margin-right: 50px;
+    }
+    .bca img{
+        width: 35px;
+        height: 30px;
+    }
+    .jatim img{
+        width: 35px;
+        height: 30px;
     }
 }

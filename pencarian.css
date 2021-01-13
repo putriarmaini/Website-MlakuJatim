@@ -92,7 +92,7 @@ a#logo{
     height: 25px;
     outline: none;
 }
-a.btna, a:hover{
+a.btna:hover{
     text-decoration: none;
     background: none;
 }
@@ -254,4 +254,54 @@ a.klikgambar{
     .menubtn img{
         width: 20px;
     }
+    .cari{
+        top: 30px;
+        margin-bottom: 50px;
+    }
+    .cari p{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    #btncari{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #btncari button{
+        font-size: 10px;
+        width: 40px;
+        height: 20px;
+    }
+    input[type=text]{
+        font-size: 10px;
+        margin: 20px 25% 10px;
+        width: 40%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .daftar{
+        width: 88%;
+        margin-left: auto;
+    }
+    .daftar img{
+        width: 160px;
+        height: 100px;
+    }
+    .daftar p{
+        font-size: 10px;
+        margin-left: 30px;
+    }
+    .gambar{
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 100px;
+    }
+    
+    .paragraf{
+        margin-top: 10px;
+    }
+    
 }

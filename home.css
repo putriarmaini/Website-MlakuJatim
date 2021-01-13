@@ -275,6 +275,9 @@ a.hold{
     width: 220px;
     height: 123px;
 }
+.daftarartikel1 h5{
+    margin-bottom: 10px;
+}
 .daftarartikel1 p{
     font-size: 12px;
     font-family: sans-serif;
@@ -285,6 +288,9 @@ a.hold{
     margin: 0 150px 0 150px;
     justify-content: space-evenly;
 }
+.daftarartikel2 h5{
+    margin-bottom: 10px;
+}
 .daftarartikel2 img{
     width: 220px;
     height: 123px;
@@ -293,7 +299,7 @@ a.hold{
     font-size: 12px;
     font-family: sans-serif;
 }
-a#baca{
+a.herfbaca:hover{
     background: none;
     text-decoration: none;
     transition: .5s;
@@ -305,6 +311,7 @@ a#baca{
     background-color:rgba(3, 3, 3, 0.4);
     border: 1px solid white;
     border-radius: 50px;
+    margin-top: 10px;
 } 
 
 .footer{
@@ -313,7 +320,7 @@ a#baca{
     text-align: center;
     padding: 20px 0;
     position: relative;
-    top: 20px;
+    top: 0px;
     display: flex;
     justify-content: space-evenly;
     height: 220px;
@@ -519,7 +526,7 @@ a.sosmed:hover{
         text-align: center;
         padding: 10px 0;
         position: relative;
-        top: 20px;
+        top: 0px;
         display: flex;
         justify-content: space-evenly;
         height: 130px;
@@ -553,4 +560,127 @@ a.sosmed:hover{
     .link img{
         width: 25px;
     }
+
+    .homeatas{
+        height: 280px;
+    }
+
+    h1#jalanjalan{
+        font-size: 25px;
+        padding-top: 100px;
+    }
+    h1#jatim{
+        font-size: 25px;
+    }
+    
+    h3{
+        font-size: 12px;
+        padding: 5px 25px;
+        margin-top: 25px;
+    }
+    h2{
+        font-size: 15px;
+    }
+
+    #jawatimur{
+        font-size: 15px;
+        margin-top: 8px;
+        margin-left: -30px;
+    }
+    #defend{
+        width: 180px;
+        height: 150px;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+    .kasus{
+        font-size: 10px;
+        width: 80px;
+        padding: 10px;
+        margin-top: 50px;
+        margin-left: -140px;
+    }
+    .sembuh{
+        font-size: 10px;
+        width: 80px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .wafat{
+        font-size: 10px;
+        width: 80px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .subhome{
+        font-size: 15px;
+    }
+    .museum1 img{
+        width: 80px;
+        height: 70px;
+    }
+
+    .museum1{
+        font-size: 6px;
+    }
+    .museum2 img{
+        width: 80px;
+        height: 70px;  
+    }
+    .museum2{
+        font-size: 6px;
+    }
+    .video h4{
+        margin-top: 0;
+    }
+
+    .video video{
+        width: 180px;
+        height: 120px;
+    }
+
+    #vid2{
+        margin-left: 100px;
+    }
+
+    .artikel{
+        padding-bottom: 10px;
+    }
+    .artikel h4{
+        margin-bottom: 15px;
+    }
+    .daftarartikel1{
+        margin: auto;
+    }
+    .daftarartikel1 img{
+        width: 120px;
+        height: 70px;
+    }
+    .daftarartikel1 h5{
+        font-size: 8px;
+    }
+    .daftarartikel1 p{
+        font-size: 6px;
+    }
+    .daftarartikel2{
+        margin: auto;
+    }
+    .daftarartikel2 h5{
+        font-size: 8px;
+    }
+    .daftarartikel2 img{
+        width: 120px;
+        height: 70px;
+    }
+    .daftarartikel2 p{
+        font-size: 6px;
+    }
+
+    .baca{
+        margin: auto;
+        margin-top: 5px;
+        width: 100px;
+        font-size: 8px;
+        padding: 5px 5px;
+    } 
 }

@@ -93,7 +93,7 @@ button{
     cursor: pointer;
 }
 .tambahwisata{
-    margin: 0 0 20px;
+    margin: 20px 0 20px;
 }
 .tambahwisata button{
     outline: none;
@@ -305,6 +305,9 @@ a.sosmed:hover{
         display: block;
     }
 
+    .menubtn img{
+        width: 20px;
+    }
     .footer{
         background-color:#FFCF22 ;
         margin: auto;
@@ -344,5 +347,29 @@ a.sosmed:hover{
     }
     .link img{
         width: 25px;
+    }
+
+    .profile{
+        width: 400px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .profile img{
+        width: 80px;
+        height: 80px;
+    }
+    .profile p{
+        font-size: 10px;
+    }
+    button{
+        padding: 5px;
+        font-size: 8px;
+    }
+    .aturakun{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .tambahwisata{
+        margin: 10px 0;
     }
 }

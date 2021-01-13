@@ -64,26 +64,27 @@ a.klik, a:hover{
     background: rgba(188, 154, 32, 0.9);
     border-radius: 50px;
 }
-.judul{
-    text-align: center;
-    margin: auto;
-    top: 60px;
-    height: 240px;
-    padding-top: 50px;
-}
 .atas{
     margin: auto;
     background-image: url(wotuolu.png);
-    position: relative;
     background-repeat: no-repeat;
-    width: 85%;
+    width: 1000px;
     height: 300px;
-    top: 60px;
+    margin-top: 60px;
 }
-h1{
+
+.judul{
+    text-align: center;
+    margin: auto;
+    height: 240px;
+    padding-top: 50px;
+}
+
+.judul h1{
     color: white;
     text-decoration-line: underline;
 }
+
 .wilayah{
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -93,7 +94,7 @@ h1{
     background-color: #DED4B2;
     border-radius: 0px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-    width: 1098px;
+    width: 1000px;
     height: 60px;
     padding: 10px;
     font-size: large;
@@ -101,15 +102,12 @@ h1{
 }
 
 .bawah{
-    width: 100%;
-    height: 80%;
-    left: 0px;
-    top: 0px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
     display: flex;
-    position: relative;
     font-family: sans-serif;
     font-size: 14px;
-    padding: 30px;
     justify-content: space-evenly;
 }
 .deskripsi{
@@ -118,7 +116,7 @@ h1{
     width: 300px;
     height: 180px;
     background-color: white;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .tambahan{
@@ -127,7 +125,7 @@ h1{
     margin: auto;
     width: 300px;
     height: 180px;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .paket{
@@ -136,10 +134,14 @@ h1{
     margin: auto;
     width: 300px;
     height: 180px;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.akhir{
+    width: 160px;
+    margin: auto;
+    margin-top: 30px;
+}
 .akhir button{
     font-family: sans-serif;
     background-color : #C09C17;
@@ -148,11 +150,9 @@ h1{
     display: block;
     width: 160px;
     height: 30px;
-    align-content: center;
     text-align: center;
-    margin-top:50px;
-    margin-left:43.5%;
     cursor: pointer;
+    outline: none;
 }
 
 .checkbtn{
@@ -209,6 +209,42 @@ h1{
         font-weight: normal;
         padding: 10px 13px;
     }
+    .atas{
+        width: 900px;
+        height: 280px;
+        margin-top: 50px;
+    }
+    
+    .judul{
+        margin: auto;
+        height: 240px;
+        padding-top: 50px;
+    }
+
+    .penjelasan{
+        width: 900px;
+        height: 60px;
+    }
+    
+    .bawah{
+        font-size: 12px;
+        padding: 20px;
+    }
+    .deskripsi{
+        width: 250px;
+        height: 160px;
+        padding: 20px;
+    }
+    .tambahan{
+        width: 250px;
+        height: 160px;
+        padding: 20px;
+    }
+    .paket{
+        width: 250px;
+        height: 160px;
+        padding: 20px;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -264,5 +300,68 @@ h1{
     }
     .menubtn img{
         width: 20px;
+    }
+    .atas{
+        background-image: url("Gambar Mlakujatim/watu\ ulo.jpg");
+        width: 500px;
+        height: 180px;
+        margin-top: 40px;
+    }
+    .atas h1{
+        font-size: 16px;
+    }
+    .judul{
+        height: 150px;
+    }
+    .wilayah{
+        font-size: 13px;
+        margin-top: 8px;
+    }
+    .penjelasan{
+        width: 500px;
+        height: 40px;
+        padding: 5px;
+    }
+    .penjelasan p{
+        font-size: 12px;
+    }
+    .bawah{
+        width: 500px;
+        font-size: 12px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .deskripsi{
+        width: 220px;
+        height: 100px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .tambahan{
+        width: 220px;
+        height: 100px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .paket{
+        width: 220px;
+        height: 100px;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .akhir{
+        width: 60px;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .akhir button{
+        font-size: 10px;
+        width: 60px;
+        height: 20px;
     }
 }

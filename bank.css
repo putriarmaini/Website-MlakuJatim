@@ -66,7 +66,7 @@ a.klik, a:hover{
 }
 .atas{
     background-image: url(wotuolu.png);
-    position: absolute;
+    position: relative;
     background-repeat: no-repeat;
     width: 85%;
     margin-left: 100px;
@@ -77,8 +77,12 @@ a.klik, a:hover{
 }
 .judul{
     text-align: center;
-    margin: 20px 40% 90px;
-    padding: 20px;
+    margin: auto;
+    height: 240px;
+    padding-top: 50px;
+}
+
+.judul h1{
     color: white;
     text-decoration-line: underline;
 }
@@ -87,7 +91,7 @@ a.klik, a:hover{
     width: 100%;
     height: 100px;
     display: flex;
-    position: absolute;
+    position: relative;
     font-family: sans-serif;
     font-size: 16px;
     background-color: #E1C048;
@@ -107,77 +111,60 @@ a.klik, a:hover{
     padding: 20px;
 }
 .bawah{
-    width: 85%;
-    height: 40%;
-    position: absolute;
+    margin: auto;
+    width: 1000px;
+    height: 200px;
+    position: relative;
     font-family: sans-serif;
     font-size: 14px;
-    padding: 30px;
-    justify-content: space-evenly;
+    top: 45px;
 }
 .bnykorg{
-    margin-top: 10%;
-    margin-left: 8.5%;
-    width: 85%;
-    height: 40%;
+    margin: auto;
+    width: 600px;
     display: flex;
-    position: absolute;
+    position: relative;
     font-family: sans-serif;
     font-size: 16px;
     padding: 30px;
+    left: -40px;
     justify-content: space-evenly;
 }
 
-.bnykorg label{
-    color: #0a0a0a;
-    display: block;
-    padding: 5px;
-    margin-left: -150px;
-    margin-right: -100px;
-
-}
 .bnykorg input{
     font-size: 14px;
     border-radius: 5px;
     border: 2px solid #f0f0f0;
     display: block;
     width: 70px;
-    height: 40px;    
+    height: 30px;    
     margin-left: -150px;
     margin-right: -100px;
     outline: none;
 }
 
 .tgl{
-    margin-top: 15%;
-    margin-left: 16%;
-    width: 85%;
-    height: 40%;
+    margin: auto;
+    width: 600px;
     display: flex;
-    position: absolute;
+    position: relative;
     font-family: sans-serif;
     font-size: 16px;
-    padding: 30px;
     justify-content: space-evenly;
 }
 
-.tgl label{
-    color: #0a0a0a;
-    display: block;
-    padding: 5px;
-    margin-left: -150px;
-    margin-right: -100px;
-}
 .tgl input{
     font-size: 14px;
     border-radius: 5px;
     border: 2px solid #f0f0f0;
     display: block;
     width: 133px;
-    height: 40px;
-    margin-left: -150px;
-    margin-right: -100px;
+    height: 30px;
     outline: none;
+}
+.byr{
+    margin: auto;
+    width: 160px;
 }
 .byr button{
     font-family: sans-serif;
@@ -189,8 +176,7 @@ a.klik, a:hover{
     height: 30px;
     align-content: center;
     text-align: center;
-    margin-top:28%;
-    margin-left:53%;
+    margin-top:50px;
     outline: none;
     cursor: pointer;
 }
@@ -253,24 +239,31 @@ a.noneklik, a:hover{
         font-weight: normal;
         padding: 10px 13px;
     }
+    .atas{
+        width: 900px;
+        margin: auto;
+        top: 50px;
+        padding-top: 40px;
+    }
+    .judul{
+        margin: auto;
+        height: 210px;
+        padding-top: 50px;
+    }
+    
     .penjelasan{
-        height: auto;
-        padding: 30px;
+        font-size: 13px;
+        height: 80px;
     }
-    .bnykorg{
-        margin-top: 40%;
+    .jelas{
+        margin-right: 15%;   
+        margin-left: 5%;
     }
-    .bnykorg label{
-        margin-left: -300px;
-        margin-right: 0px;
-    }
-    .tgl{
-        margin-top : 60%;
-        margin-left: 40%;
-        display: block;
-    }
-    .tgl label{
-        margin-left: -200px;
+    
+    .harga{
+        margin-right: 15%;
+        border: 1px solid black;
+        padding: 15px;
     }
 }
 
@@ -328,23 +321,96 @@ a.noneklik, a:hover{
     .menubtn img{
         width: 20px;
     }
+    .atas{
+        width: 450px;
+        height: 150px;
+        top: 40px;
+        padding-top: 40px;
+    }
+    .judul{
+        height:80px;
+        padding-top: 20px;
+    }
+    .judul h1{
+        font-size: 16px;
+    }
+    
     .penjelasan{
-        height: auto;
-        padding: 30px;
+        font-size: 8px;
+        height: 50px;
+    }
+    .jelas{
+        text-align: center;
+        margin : auto;
+        margin-right: 15%;   
+        margin-left: 5%;
+    }
+    
+    .harga{
+        text-align: center;
+        margin : auto;
+        margin-right: 15%;
+        border: 1px solid black;
+        padding: 8px;
+    }
+    .bawah{
+        margin: auto;
+        width: 450px;
+        height: 100px;
+        position: relative;
+        font-family: sans-serif;
+        font-size: 14px;
+        top: 45px;
+    }
+    .bawah h3{
+        font-size: 10px;
     }
     .bnykorg{
-        margin-top: 70%;
+        margin: auto;
+        width: 450px;
+        display: flex;
+        font-size: 10px;
+        padding: 30px;
+        top: 5px;
+        align-items: center;
     }
-    .bnykorg label{
-        margin-left: -300px;
-        margin-right: 0px;
+    
+    .bnykorg input{
+        font-size: 8px;
+        width: 50px;
+        height: 20px;    
+        margin-left: -150px;
+        margin-right: -100px;
     }
+    
     .tgl{
-        margin-top : 80%;
-        margin-left: 40%;
-        display: block;
+        margin: auto;
+        width: 450px;
+        display: flex;
+        font-size: 10px;
+        justify-content: space-evenly;
+        align-items: center;
     }
-    .tgl label{
-        margin-left: -200px;
+    
+    .tgl input{
+        font-size: 10px;
+        display: block;
+        width: 80px;
+        height: 20px;
+        outline: none;
+    }
+    .byr{
+        margin: auto;
+        width: 80px;
+    }
+    .byr button{
+        font-size: 8px;
+        width: 80px;
+        height: 20px;
+        margin-top: 30px;
+    }
+    a.noneklik, a:hover{
+        color: black;
+        text-decoration: none;
     }
 }

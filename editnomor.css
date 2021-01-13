@@ -315,4 +315,129 @@ a.perbarui:hover{
     .menubtn img{
         width: 20px;
     }
+
+    .editakun{
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .fotoprofil{
+        margin-top: 50px;
+    }
+    .fotoprofil img{
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    .fotoprofil p{
+        font-size: 12px;
+    }
+    #file{
+        font-size: 12px;
+    }
+    .aturakun{
+        width: 280px;
+    }
+    .nama{
+        font-size: 10px;
+        padding: 3px;
+    }
+    .nama img{
+        width: 15px;
+        height: 15px;
+    }
+    h3{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    input[type="text"]{
+        font-size: 8px;
+        width: 200px;
+        height: 16px;
+    }
+
+    button[type=submit]{
+        font-size: 8px;
+        width: 40px;
+        height: 16px;
+    }
+    input[type=email]{
+        font-size: 8px;
+        width: 200px;
+        height: 16px;
+    }
+    .password{
+        margin-top: 20px;
+        font-size: 10px;
+        padding: 3px;
+    }
+    .password img{
+        width: 15px;
+        height: 15px;
+    }
+    p.ubah{
+        margin-left: 185px;
+        color: black;
+    }
+    .verifikasi{
+        margin-top: 20px;
+        font-size: 10px;
+        padding: 3px;
+    }
+    .verifikasi img{
+        width: 15px;
+        height: 15px;
+    }
+    input[type=checkbox]{
+        width: 10px;
+        height: 10px;
+    }
+    .checkverifikasi p{
+        font-size: 10px;
+    }
+    #checkbox{
+        height: 16px;
+    }
+    .nomorhp{
+        margin-top: 20px;
+        font-size: 10px;
+        padding: 3px;
+    }
+    .nomorhp img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .email{
+        margin-top: 20px;
+        font-size: 10px;
+        padding: 3px;
+    }
+    .email img{
+        width: 15px;
+        height: 15px;
+    }
+    #bintang{
+        width: 200px;
+        height: 16px;
+    }
+    .hubungkanakun{
+        margin-top: 20px;
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    .facebook p{
+        width: 217px;
+    }
+    .facebook img{
+        width: 15px;
+        height: 15px;
+    }
+    .google p{
+        width: 217px;
+    }
+    .google img{
+        width: 15px;
+        height: 15px;
+    }
 }
