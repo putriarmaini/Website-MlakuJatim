@@ -117,7 +117,7 @@ a.klik, a:hover{
         padding: 5px;
         font-size: 6px;
         border-radius: 5px;
-        border: 2px solid #f0f0f0;
+        border: 0.5px solid #f0f0f0;
         display: block;
         width: 100%;
     }
@@ -126,7 +126,13 @@ a.klik, a:hover{
         border-color: #888888;
         outline: 0;
     }
-    
+    input[type=checkbox]{
+        width: 8px;
+        height: 8px;
+    }
+    #show-pass{
+        font-size: 8px;
+    }
     .form-control button{
         padding: 3px;
         font-size: 6px;
@@ -135,6 +141,8 @@ a.klik, a:hover{
         align-content: center;
         text-align: center;
         margin:auto;
+        outline: none;
+        cursor: pointer;
     }
     
     .sign-up button{

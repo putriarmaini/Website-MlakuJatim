@@ -68,12 +68,11 @@ a.klik, a:hover{
     background-image: url(wotuolu.png);
     position: relative;
     background-repeat: no-repeat;
-    width: 85%;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 1000px;
     top: 60px;
     background-size: cover;
     padding-top: 40px;
+    margin: auto;
 }
 .judul{
     text-align: center;

@@ -58,6 +58,9 @@ a.klik, a:hover{
     background: rgba(188, 154, 32, 0.9);
     border-radius: 50px;
 }
+.container{
+    width: 100%;
+}
 table, th, td{
     margin-top: 100px;
     margin: auto;
@@ -96,7 +99,9 @@ textarea{
     outline: none;
 }
 .tombol{
-    margin: 0px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .checkbtn{
@@ -152,6 +157,31 @@ textarea{
         font-size: 14px;
         font-weight: normal;
         padding: 10px 13px;
+    }
+    .container{
+        margin: auto;
+        margin-top: 60px;
+        width: 1000px;
+    }
+    .container table{
+        width: 80%;
+    }
+    input[type=text]{
+        width: 80%;
+        height: 23px;
+        outline: none;
+    }
+    input[type=file]{
+        font-size: 10px;
+        width: 150px;
+        height: 18px;
+        outline: none;
+    }
+    textarea{
+        width: 80%;
+    }
+    textarea#deskripsi{
+        width: 92%;
     }
 }
 
@@ -209,4 +239,48 @@ textarea{
     .menubtn img{
         width: 20px;
     }
+    .container{
+        font-size: 10px;
+        margin: auto;
+        margin-top: 60px;
+        width: 500px;
+    }
+    .container table, th, td{
+        width: 500px;
+    }
+    input[type=text]{
+        font-size: 8px;
+        width: 200px;
+        height: 16px;
+        outline: none;
+    }    
+    input[type=checkbox]{
+        width: 8px;
+        height: 8px;
+        outline: none;
+    }
+    input[type=file]{
+        font-size: 8px;
+        width: 120px;
+        height: 16px;
+    }
+    textarea{
+        font-size: 8px;
+        width: 200px;
+    }
+    textarea#deskripsi{
+        width: 500px;
+    }
+    .tombol button{
+        width: 40px;
+        padding: 1px;
+        font-size: 8px;
+    }
+    .tombol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
 }

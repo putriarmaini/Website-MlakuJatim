@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scle-1.0">
     <link rel="stylesheet" href="login 1.css">
+    <script type="text/javascript" src="jquery.js"></script>
     <script src="login.js"></script>
     <title>Log In</title>
 </head>
@@ -13,15 +14,17 @@
             <h1>Log In</h1>
             <div class="form-control">
                 <label for="username">Email/Mobile Number</label>
-                <input type="text" id="username" placeholder="Masukan email/mobile number">
+                <input type="text" id="username" placeholder="Masukkan email/mobile number">
             </div>
             <div class="form-control">
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Masukan password">
+                <input type="password" id="password" class="form-password" placeholder="Masukkan password">
             </div>
+            <input type="checkbox" class="form-checkbox"><label for="pass" id="show-pass"> Show password</label>
+            <br>
             <br>
             <div class="form-control">
-                <button type="submit" onclick="login()"><a class="klik" href="index.html">Log In</a></button>
+                <button type="button" onclick="login()">Log In</button>
             </div>
             <br>
             <br>
