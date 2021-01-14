@@ -21,51 +21,49 @@
         </ul>
     </nav>
     <h2>Edit wisata</h2>
-    <table>
-        <div class="masukkangambar">
-            <tr id="masukkan gambar">
-                <th rowspan="5" colspan="3"><input type="file" name="masukkangambar" id="masukkangambar"></th>
+    <div class="container">
+        <table>
+            <div class="masukkangambar">
+                <tr id="masukkan gambar">
+                    <th rowspan="5" colspan="3"><input type="file" name="masukkangambar" id="masukkangambar"></th>
+                </tr>
+            </div>
+            <tr>
+                <td><label for="namatempat">Nama Tempat:</label></td>
+                <td><input type="text" id="namatempat" name="namatempat"></td>
             </tr>
+            <tr>
+                <td><label for="alamattempat">Alamat:</label></td>
+                <td><textarea name="alamattempat" id="alamattempat" cols="30" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="waktu">Waktu:</label></td>
+                <td><input type="text" id="waktu" name="waktu"></td>
+            </tr>
+            <tr>
+                <td><label for="harga">Harga:</label></td>
+                <td><input type="text" id="harga" name="harga"></td>
+            </tr>
+            <tr>
+                <td colspan="6"><label for="deskripsi">Deskripsi:</label></td>
+            </tr>
+            <tr>
+                <td colspan="6"><textarea name="deskripsi" id="deskripsi" cols="30" rows="7"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="3"><label for="paket">Paket:</label></td>
+                <td></td>
+                <td colspan="3"><label for="transportasi">Transportasi:</label></td>
+            </tr>
+            <tr>
+                <td colspan="3"><textarea name="paket" id="paket" cols="30" rows="8"></textarea></td>
+                <td></td>
+                <td colspan="3"><textarea name="transportasi" id="transportasi" cols="30" rows="8"></textarea></td>
+            </tr>
+        </table>
+        <div class="tombol">
+            <a href="kelolawisata.html"><button type="submit">Simpan</button></a>
         </div>
-        <tr>
-            <td><label for="namatempat">Nama Tempat:</label></td>
-            <td><input type="text" id="namatempat" name="namatempat"></td>
-        </tr>
-        <tr>
-            <td><label for="alamattempat">Alamat:</label></td>
-            <td><textarea name="alamattempat" id="alamattempat" cols="30" rows="3"></textarea></td>
-        </tr>
-        <tr>
-            <td><label for="waktu">Waktu:</label></td>
-            <td><input type="text" id="waktu" name="waktu"></td>
-        </tr>
-        <tr>
-            <td><label for="harga">Harga:</label></td>
-            <td><input type="text" id="harga" name="harga"></td>
-        </tr>
-        <tr>
-            <td colspan="6"><label for="deskripsi">Deskripsi:</label></td>
-        </tr>
-        <tr>
-            <td colspan="6"><textarea name="deskripsi" id="deskripsi" cols="30" rows="7"></textarea></td>
-        </tr>
-        <tr>
-            <td colspan="3"><label for="paket">Paket:</label></td>
-            <td></td>
-            <td colspan="3"><label for="transportasi">Transportasi:</label></td>
-        </tr>
-        <tr>
-            <td colspan="3"><textarea name="paket" id="paket" cols="30" rows="8"></textarea></td>
-            <td></td>
-            <td colspan="3"><textarea name="transportasi" id="transportasi" cols="30" rows="8"></textarea></td>
-        </tr>
-        <tr>
-            <td colspan="6">
-                <div class="tombol">
-                    <a href="kelolawisata.html"><button type="submit">Simpan</button></a>
-                </div>
-            </td>
-        </tr>
-    </table>
+    </div>
 </body>
 </html>

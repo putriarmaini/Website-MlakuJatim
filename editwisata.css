@@ -100,7 +100,9 @@ textarea{
     outline: none;
 }
 .tombol{
-    margin: 30px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -160,6 +162,31 @@ textarea{
     }
     h2{
         margin-top: 60px;
+    }
+    .container{
+        margin: auto;
+        margin-top: 0px;
+        width: 1000px;
+    }
+    .container table{
+        width: 80%;
+    }
+    input[type=text]{
+        width: 80%;
+        height: 23px;
+        outline: none;
+    }
+    input[type=file]{
+        font-size: 10px;
+        width: 150px;
+        height: 18px;
+        outline: none;
+    }
+    textarea{
+        width: 80%;
+    }
+    textarea#deskripsi{
+        width: 92%;
     }
 }
 
@@ -222,35 +249,47 @@ textarea{
         margin-top: 50px;
         font-size: 15px;
     }
-    table, th, td{
-        margin-top: 100px;
+    .container{
+        font-size: 10px;
         margin: auto;
-        padding: 3px;
-        font-size: 12px;
+        margin-top: 0px;
+        width: 500px;
     }
-    table{
-        margin-top: 20px;
-        width: 80%
-    }
-    table, tr{
-        width: 100px;
+    .container table, th, td{
+        width: 500px;
     }
     input[type=text]{
-        width: 100%;
-        height: 23px;
+        font-size: 8px;
+        width: 200px;
+        height: 16px;
+        outline: none;
+    }    
+    input[type=checkbox]{
+        width: 8px;
+        height: 8px;
+        outline: none;
+    }
+    input[type=file]{
+        font-size: 8px;
+        width: 120px;
+        height: 16px;
     }
     textarea{
-        width: 100%;
+        font-size: 8px;
+        width: 200px;
     }
-    #masukkangambar{
-        font-size: 10px;
-        background-color: white;
+    textarea#deskripsi{
+        width: 500px;
     }
     .tombol button{
-        font-size: 10px;
-        width: 60px;
+        width: 40px;
+        padding: 1px;
+        font-size: 8px;
     }
     .tombol{
-        margin: 30px 400px;
-    }    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
 }
